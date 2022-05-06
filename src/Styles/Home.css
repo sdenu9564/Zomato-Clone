@@ -1,0 +1,145 @@
+.logo{
+    text-align: center;
+    font-size: 80px;
+    color: red;
+    background: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    margin-left: 46%;
+    margin-right: 46%;
+
+}
+
+.heading{
+    color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  position: relative;
+  margin: auto;
+  font-size: 36px;
+  top: -240px;
+}
+
+
+.locationselectors{
+    margin:auto;
+    position: relative;
+    top: -238px;
+    margin-left: 29.5%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.locationdropdown{
+    height: 40px;
+    width: 245px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+  
+}
+.resturantsinput{
+    height: 40px;
+  width: 300px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  float: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.quicksearch {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -65px;
+}
+  
+.quicksearchHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+  
+.quicksearchSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 20px;
+}
+  
+.tileContainer {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px black;
+    float: left;
+}
+  
+.tileComponent1 {
+    width: 45%;
+    float: left;
+}
+  
+.tileComponent2 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+  
+.componentHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+  .componentSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+}
+  
+ @media only screen and (max-width: 600px) {
+    .logo {
+      text-align: center;
+      font-size: 80px;
+      color: red;
+      background: white;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      position: absolute;
+      top: 20%;
+      margin-left: 37%;
+      margin-right: 40%;
+    }
+    .locationSelector {
+      margin: auto;
+      position: relative;
+      top: -238px;
+      margin-left: 23.5%;
+      margin-right: 20%;
+      text-align: center;
+    }
+}
